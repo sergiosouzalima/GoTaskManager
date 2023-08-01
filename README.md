@@ -15,30 +15,28 @@ Isso permite o armazenamento persistente de tarefas entre diferentes execuções
 O usuário interage com o GoTaskManager através de um sistema de menu:
 
 MENU
-C - CREATE
-U - UPDATE
-D - DELETE
-L - LIST
-O - COMPLETE
-Q - QUIT
-
+- C - CREATE
+- U - UPDATE
+- D - DELETE
+- L - LIST
+- O - COMPLETE
+- Q - QUIT
 
 Por exemplo:
-Escolher 'C' solicita ao usuário que insira a descrição da tarefa e sua data de vencimento, criando uma nova tarefa.
-Escolher 'U' solicita ao usuário que insira o ID da tarefa a ser atualizada e a nova descrição para essa tarefa.
-Escolher 'D' solicita ao usuário que insira o ID da tarefa a ser excluída.
-Escolher 'L' lista todas as tarefas existentes.
-Escolher 'O' completa uma tarefa.
-Escolher 'Q' salva as tarefas atuais no arquivo JSON e sai do programa.
+- Escolher 'C' solicita ao usuário que insira a descrição da tarefa e sua data de vencimento, criando uma nova tarefa.
+- Escolher 'U' solicita ao usuário que insira o ID da tarefa a ser atualizada e a nova descrição para essa tarefa.
+- Escolher 'D' solicita ao usuário que insira o ID da tarefa a ser excluída.
+- Escolher 'L' lista todas as tarefas existentes.
+- Escolher 'O' completa uma tarefa.
+- Escolher 'Q' salva as tarefas atuais no arquivo JSON e sai do programa.
 
 Para compilar este programa para Linux, use o seguinte comando:
 
-go build -o GoTaskManager
+    go build -o GoTaskManager
 
 Para compilar este programa para Windows, use o seguinte comando:
 
-GOOS=windows GOARCH=amd64 go build -o GoTaskManager.exe
-
+    GOOS=windows GOARCH=amd64 go build -o GoTaskManager.exe
 
 <div id="english"></div>
 
@@ -57,26 +55,29 @@ This allows for persistent storage of tasks between different executions of the 
 The user interacts with GoTaskManager through a menu system:
 
 MENU
-C - CREATE
-U - UPDATE
-D - DELETE
-L - LIST
-O - COMPLETE
-Q - QUIT
-
+- C - CREATE
+- U - UPDATE
+- D - DELETE
+- L - LIST
+- O - COMPLETE
+- Q - QUIT
 
 For example:
-Choosing 'C' prompts the user to enter the description of the task and its due date, creating a new task.
-Choosing 'U' prompts the user to enter the ID of the task to update and the new description for that task.
-Choosing 'D' prompts the user to enter the ID of the task to delete.
-Choosing 'L' lists all the existing tasks.
-Choosing 'O' completes a task.
-Choosing 'Q' saves the current tasks to the JSON file and quits the program.
+- Choosing 'C' prompts the user to enter the description of the task and its due date, creating a new task.
+- Choosing 'U' prompts the user to enter the ID of the task to update and the new description for that task.
+- Choosing 'D' prompts the user to enter the ID of the task to delete.
+- Choosing 'L' lists all the existing tasks.
+- Choosing 'O' completes a task.
+- Choosing 'Q' saves the current tasks to the JSON file and quits the program.
 
 To compile this program for Linux, use the following command:
 
+```bash
 go build -o GoTaskManager
+```
 
 To compile this program for Windows, use the following command:
 
+```bash
 GOOS=windows GOARCH=amd64 go build -o GoTaskManager.exe
+```
