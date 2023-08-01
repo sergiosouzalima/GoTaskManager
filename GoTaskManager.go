@@ -43,7 +43,6 @@ import (
 	"bufio"
 	"encoding/json"
 	"fmt"
-	"io/ioutil"
 	"os"
 	"os/exec"
 	"runtime"
@@ -232,7 +231,7 @@ func listTasks() {
 }
 
 func loadTasks() {
-	byteValue, err := ioutil.ReadFile(storagePath)
+	byteValue, err := os.ReadFile(storagePath)
 	if err != nil {
 		return
 	}
@@ -249,5 +248,5 @@ func loadTasks() {
 
 func saveTasks() {
 	file, _ := json.MarshalIndent(tasks, "", " ")
-	_ = ioutil.WriteFile(storagePath, file, 0644)
+	_ = os.WriteFile(storagePath, file, 0644)
 }
