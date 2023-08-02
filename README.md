@@ -35,6 +35,8 @@ Por exemplo:
 - Escolher 'O' completa uma tarefa.
 - Escolher 'Q' salva as tarefas atuais no arquivo JSON e sai do programa.
 
+## Como compilar
+
 Para compilar este programa para Linux, use o seguinte comando:
 
     go build -o GoTaskManager
@@ -80,6 +82,8 @@ For example:
 - Choosing 'L' lists all the existing tasks.
 - Choosing 'O' completes a task.
 - Choosing 'Q' saves the current tasks to the JSON file and quits the program.
+
+## How to compile
 
 To compile this program for Linux, use the following command:
 
