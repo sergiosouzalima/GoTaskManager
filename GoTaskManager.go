@@ -34,7 +34,7 @@ To compile this program for Linux, use the following command:
     go build -o GoTaskManager
 
 To compile this program for Windows, use the following command:
-    env GOOS=windows GOARCH=amd64 go build -o GoTaskManager.exe
+    GOOS=windows GOARCH=amd64 go build -o GoTaskManager.exe
 */
 
 package main
