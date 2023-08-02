@@ -15,9 +15,10 @@ Isso permite o armazenamento persistente de tarefas entre diferentes execuções
 ## Baixando o Projeto
 
 Para baixar o projeto, clique no botão "Code" no GitHub e, em seguida, clique na opção "Download ZIP". Depois de baixar o arquivo ZIP, você poderá descompactá-lo e executar o programa.
-O usuário interage com o GoTaskManager através de um sistema de menu:
 
 ## Como usar
+
+O usuário interage com o GoTaskManager através de um sistema de menu:
 
 MENU
 - C - CREATE
